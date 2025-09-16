@@ -1,0 +1,10 @@
+package com.company.chap1;
+
+public class class01 {
+    public static void main(String[] args){
+        int a = 10;
+        int b = 5;
+        int add = a + b;
+        System.out.println("The sum of 'a' and 'b' is: " + add);
+    }
+}
