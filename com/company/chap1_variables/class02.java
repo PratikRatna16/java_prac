@@ -1,4 +1,4 @@
-package com.company.chap1;
+package com.company.chap1_variables;
 
 import java.util.Scanner;
 

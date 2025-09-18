@@ -1,4 +1,4 @@
-package com.company.chap1;
+package com.company.chap1_variables;
 
 public class class00 {
     public static void main(String[] args){
