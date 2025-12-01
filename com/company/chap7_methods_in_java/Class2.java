@@ -23,6 +23,8 @@ public class Class2 {
         // ITS HEAP memory method
         Class2 obj = new Class2();// creating object
         float c = obj.sum(a,b);// syntax is to use obj.function name
-        System.out.println("value of c: "+c);
+        System.out.println("value of c: "+ c);
+        // System.out.println("value of c: "+ (float)obj.sum(a,b)); // can be written like this.
+
     }
 }
