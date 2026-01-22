@@ -5,7 +5,7 @@ import java.util.Random;
 class Game{
     int num;
     int inputNumber;
-    int numOfGuesses;
+    int numOfGuesses = 0;
     public int getNumOfGuesses() {
         return numOfGuesses;
     }
@@ -22,7 +22,9 @@ class Game{
         inputNumber = sc.nextInt();
     }
     boolean isCorrectNumber(){
+        numOfGuesses++;
         if(inputNumber== num){
+            System.out.format("Yes u guessed the number right %d\n you got right in the %d attempt\n",num,numOfGuesses);
             return true;
         }
         else if(inputNumber < num){
@@ -37,10 +39,10 @@ class Game{
 public class good {
     public static void main(String[] args) {
         Game g =  new Game();
-        while (b) {
+        boolean b = false;
+        while (!b) {
             g.isUserInput();
-            boolean b = g.isCorrectNumber();
-            System.out.println(b);
+            b = g.isCorrectNumber();
         }
     }
 }
