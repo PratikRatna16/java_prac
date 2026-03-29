@@ -1,4 +1,8 @@
 Roll No: 2405368
 Name: PRATIK RATNA BEHERA
 Subject: OOPJ
-Marks: 90
+Marks: 90Roll No: 2405368
+Name: pratk
+Subject: oopj
+Marks: 85
+----------------------

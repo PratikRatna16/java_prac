@@ -17,7 +17,7 @@ class NewThread extends Thread{
         }
     }
 }
-public class test1 {
+class test1 {
     public static void main(String[] args) {
         NewThread nt = new NewThread();
         nt.t.start();
